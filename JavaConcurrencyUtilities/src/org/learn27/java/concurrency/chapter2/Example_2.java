@@ -1,8 +1,8 @@
 package org.learn27.java.concurrency.chapter2;
 
-public class Example_1 {
+public class Example_2 {
 
-	private static int counter = 0;
+	private static volatile int counter = 0;
 	private static int MAX_COUNTER = 10;
 
 	public static void main(String args[]) {
