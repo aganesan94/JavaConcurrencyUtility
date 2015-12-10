@@ -1,12 +1,12 @@
 package org.learn27.java.concurrency.chapter2;
 
-public class Example_4 {
+public class Example_5 {
 
 	// adding volatile does not fix the issue.
 	private volatile int counter = 0;
 
 	public static void main(String args[]) {
-		Example_4 example3 = new Example_4();
+		Example_5 example3 = new Example_5();
 		example3.demoInterleaving();
 	}
 

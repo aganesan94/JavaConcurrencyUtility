@@ -8,12 +8,16 @@ public class Example_3 {
 		example3.demoInterleaving();
 	}
 
+	public void increment(){
+		counter++;
+	}
+	
 	private void demoInterleaving() {
 		Thread t1 = new Thread(new Runnable() {
 			@Override
 			public void run() {
 				for (int i = 0; i < 10000; i++) {
-					counter++;
+					increment();
 				}
 			}
 		});
@@ -21,7 +25,7 @@ public class Example_3 {
 			@Override
 			public void run() {
 				for (int i = 0; i < 10000; i++) {
-					counter++;
+					increment();
 				}
 			}
 		});
