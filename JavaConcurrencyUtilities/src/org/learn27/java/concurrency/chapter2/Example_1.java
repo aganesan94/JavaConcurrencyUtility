@@ -1,5 +1,13 @@
 package org.learn27.java.concurrency.chapter2;
 
+/**
+ * The following class shows how thread interleaving can take place and explains
+ * the concept of a monitor lock or intrinsic loc applied on the instance
+ * variables of the class.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_1 {
 
 	private static int counter = 0;

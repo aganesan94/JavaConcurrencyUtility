@@ -1,5 +1,11 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following example shows to check to see if a thread is alive.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_8 {
 
 	public static void main(String args[]) throws InterruptedException {

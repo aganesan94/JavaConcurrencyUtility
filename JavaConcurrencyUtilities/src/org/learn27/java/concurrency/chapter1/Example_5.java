@@ -1,5 +1,11 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * Show the use of sleep method in the thread class.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_5 {
 
 	public static void main(String args[]) {

@@ -1,5 +1,12 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following class shows how to extend the Thread class to instantiate a
+ * thread.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_3 {
 
 	public static void main(String args[]) {

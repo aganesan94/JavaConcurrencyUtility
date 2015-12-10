@@ -1,5 +1,12 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following class shows how the threads can be created with an anonymous
+ * inner class implementing the Runnable interface.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_1 {
 
 	public static void main(String args[]) {

@@ -1,5 +1,16 @@
 package org.learn27.java.concurrency.chapter2;
 
+/**
+ * The following methods demonstrates thread interleaving. If you run this
+ * program the counter which is supposed to return 20000 will never return 20000
+ * because of interleaving issues.
+ * 
+ * So the current program uses the synchronized keyword to be able to allow only
+ * one thread to change the counter at any given instance.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_5 {
 
 	private int counter = 0;

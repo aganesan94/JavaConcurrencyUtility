@@ -1,5 +1,15 @@
 package org.learn27.java.concurrency.chapter2;
 
+/**
+ * A thread typically uses shared memory. So if you want to declare a global
+ * variable and if you want the global variable to be visible to all threads
+ * working on instance you will need to declare the variable as volatile. This
+ * is to make sure that the changes to the variable are in sync with both the
+ * threads and the threads which are running read the most updated value.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_2 {
 
 	private static volatile int counter = 0;

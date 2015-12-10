@@ -1,5 +1,13 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following class demonstrates how to use the join() to wait for a thread
+ * to finish.If you notice the first thread finishes and then starts the next
+ * thread.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_7 {
 
 	public static void main(String args[]) throws InterruptedException {

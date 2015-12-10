@@ -1,5 +1,12 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following class shows how to print some of the useful methods in the
+ * thread class.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_4 {
 
 	public static void main(String args[]) {

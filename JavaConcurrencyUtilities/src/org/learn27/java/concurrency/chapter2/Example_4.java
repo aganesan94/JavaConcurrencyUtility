@@ -1,5 +1,15 @@
 package org.learn27.java.concurrency.chapter2;
 
+/**
+ * The following methods demonstrates thread interleaving. If you run this
+ * program the counter which is supposed to return 20000 will never return 20000
+ * because of interleaving issues.
+ * 
+ * Adding a volatile keyword does not fix the threading issue.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_4 {
 
 	// adding volatile does not fix the issue.

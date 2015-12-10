@@ -1,5 +1,12 @@
 package org.learn27.java.concurrency.chapter1;
 
+/**
+ * The following class shows how to instantiate a thread
+ * with the runnable interface.
+ * 
+ * @author AGanesan
+ *
+ */
 public class Example_2 {
 
 	public static void main(String args[]) {
